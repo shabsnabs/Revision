@@ -17,7 +17,7 @@ public class BankAccount {
 
 	public String  decision() {
 		Scanner obj2 = new Scanner(System.in);
-		System.out.println("Enter whether to Withdraw or Deposit ");
+		System.out.println("Enter whether to Withdraw or Deposit Money");
 		String wd = obj2.nextLine();
 		// int deposit=obj2.nextInt();
 		if (wd.equals("Withdraw")) {
