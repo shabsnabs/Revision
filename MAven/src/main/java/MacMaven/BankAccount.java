@@ -25,7 +25,7 @@ public class BankAccount {
 		} else if (wd.equals("Deposit")) {
 			BankAccount.deposit();
 		} else {
-			System.out.println("Your input is invalid");
+			System.out.println("Your input is defintly  invalid");
 		}
 return null;
 	}
